@@ -4,9 +4,9 @@ export default {
     <header>
     <nav>
       <ul>
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="#home">Register</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     </header>
@@ -14,8 +14,7 @@ export default {
   <section id="home">
     <div>
       <h1>Oh hi there!</h1>
-      <h2>Excited for meeting?</h2>
-      <a href="#home">New user? Click Here!</a>
+      <h2>Excited for chating?</h2>
     </div>        
     
     
@@ -26,7 +25,11 @@ export default {
             <label for="password">Enter Password:</label>
             <input v-model="pword" type="password" name="password" required placeholder="password">
 
-            <input @click="submitData" type="submit" value="Submit">
+            <input @click="submitData" type="submit" value="Valid Your Information" >
+
+            <a href="index.html">Let's chat</a>
+
+
             
         </form>
   </section>
@@ -47,7 +50,7 @@ export default {
             // hit an api with a Fetch call
             // refer to the mailForm example from last semester -> the node mailer setup
 
-            debugger;
+           // debugger;
         }
     }
 }

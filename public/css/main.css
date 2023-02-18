@@ -10,6 +10,8 @@ body {
     font-size: 16px;
     background-color: #333;
     color: white;
+    background-image: url(https://i.ytimg.com/vi/uDbKtpIezfQ/maxresdefault.jpg);
+    background-size: cover;
 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -43,13 +45,13 @@ input[type="submit"] {
     width: 45%;
     border-radius: 1em;
     padding: 0.5em 1em;
-    background-color: rgba(0, 150, 150, 0.8);
+    background-color: rgba(138, 54, 128, 0.8);
     margin-bottom: 0.8em;
     float: left;
     clear: both;
 }
 
 .other-messages {
-    background-color: rgba(142, 0, 150, 0.8);
+    background-color: rgb(23, 92, 149);
     float: right;
 }
