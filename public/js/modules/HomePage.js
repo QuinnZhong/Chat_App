@@ -12,15 +12,24 @@ export default {
     </header>
 
   <section id="home">
-         <h1>Register for Awesome Swag!</h1>
+         <div>
+         <h1>Register</h1>
+         <h2>Now</h2>
+       </div> 
     <form id="my-form">
+            <label for="username">Enter Your Name:</label>
+            <input v-model="uname" type="text" name="yourname" required placeholder="yourname">
+
+            <label for="username">Enter Your Email:</label>
+            <input v-model="uname" type="text" name="email" required placeholder="email">
+
             <label for="username">Enter Username:</label>
             <input v-model="uname" type="text" name="username" required placeholder="username">
 
             <label for="password">Enter Password:</label>
             <input v-model="pword" type="password" name="password" required placeholder="password">
 
-            <input @click="submitData" type="submit" value="Submit">
+            <input @click="submitData" type="submit" value="Valid Your Information">
             
         </form>
   </section>
