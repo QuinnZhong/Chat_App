@@ -4,11 +4,26 @@
   box-sizing: border-box;
 }
 
-body { background-color: black; color: white; font-family: "Oxygen", sans-serif; text-shadow: -3px 3px 0.5px #214614;}
+body { background-color: black; color: white; font-family: "Oxygen", sans-serif; }
 
-label { display: block; margin-top: 35px }
+label { display: block; margin-top: 0px }
 
-input[type="submit"] { display: block; margin-top: 30px }
+input[type="submit"] { 
+  display: block;
+  margin-top: 8px;
+  padding: 10px 10px 10px 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  color: #FFF;
+  background-color: #8a45dd;
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 50px;
+  width: 100%;
+}
 
 nav a { 
     text-transform: none; 
@@ -28,10 +43,9 @@ h2 {
 }
 
 a {
-  text-decoration: none;
-  color: #83bed5;
+  color: #ff6f9e;
   font-size: 2rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 ul {
@@ -133,12 +147,12 @@ header ul li a:hover {
 }
 #home form {
   width: 100%;
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 #home form div {
   width: 300px;
