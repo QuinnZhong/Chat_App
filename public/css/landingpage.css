@@ -11,18 +11,17 @@ label { display: block; margin-top: 0px }
 input[type="submit"] { 
   display: block;
   margin-top: 8px;
-  padding: 10px 10px 10px 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
   color: #FFF;
   background-color: #8a45dd;
   font-size: 20px;
   text-align: center;
   font-style: normal;
   border-radius: 50px;
-  width: 100%;
+  width: 90%;
 }
 
 nav a { 
