@@ -1,197 +1,115 @@
-* {
-  padding: 0;
-  margin: 0;
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-body { background-color: black; color: white; font-family: "Oxygen", sans-serif;}
-
-label { display: block; margin-top: 50px }
-
-input[type="submit"] { display: block; margin-top: 30px }
-
-nav a { 
-    text-transform: none; 
-    color: white;
-    margin-right: 1em;
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
 }
 
-
-html {
-  scroll-behavior: smooth;
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #ffffff30;
+  border-radius: 60px;
 }
 
-
-h1,
-h2 {
-  color: #fefffe;
-}
-
-a {
-  text-decoration: none;
-  color: #8b575c;
-  font-size: 2rem;
-}
-
-ul {
-  list-style: none;
-}
-
-section {
-  min-height: 100vh;
-}
-
-header {
-  border-top: 3px solid rgba(23, 33, 33, 0.8);
-  position: fixed;
-  width: 100%;
-  height: 40px;
-  top: 0;
-  display: flex;
-  justify-content: flex-end;
-}
-header ul {
-  height: 100%;
-  display: flex;
-}
-header ul li {
-  height: 100%;
-}
-header ul li a {
-  font-size: 1.3rem;
-  padding: 0 30px 3px;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  color: #fefffe;
-}
-header ul li a:hover {
-  background-color: rgba(23, 33, 33, 0.8);
-  transition: 0.2s all ease;
-}
-
-#home {
-  background-image: url(https://image.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg);
-  background-size: cover;
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-#home div {
-  grid-column: 1/2;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-}
-#home div h1,
-#home div h2 {
-  font-size: 4rem;
-  text-shadow: -3px 3px 0.5px #8b575c;
-}
-#home div a {
-  z-index: 0;
-  background-color: transparent;
-  color: #fefffe;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-top: 30px;
-  padding: 5px 0;
-  width: 200px;
-  height: auto;
+h1 {
+  margin: 0 0 50px 0;
   text-align: center;
-  box-shadow: -3px 3px 5px rgba(23, 33, 33, 0.7);
+  font-size: 3rem;
 }
-#home div a::before {
-  z-index: -2;
-  content: "";
-  position: absolute;
-  display: block;
-  height: 100%;
-  width: 100%;
-  border-radius: 2px;
-  background-color: #8b575c;
-}
-#home div a::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 100%;
-  display: block;
-  background-color: #6d3b40;
-  transition: width 0.5s ease;
-}
-#home div a:hover::after {
-  width: 100%;
-  color: white;
-}
-#home form {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-}
-#home form div {
-  width: 300px;
-  height: auto;
-  background-color: #8b575c;
-  align-items: center;
-}
-#home form div p {
-  color: #fefffe;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-#home form div input,
-#home form div button {
-  width: 90%;
-  height: 50px;
-  margin-bottom: 10px;
-  padding: 10px;
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
   border: none;
-  background-color: #fefffe;
-  color: #172121;
-}
-#home form div #submit {
-  z-index: 0;
-  background-color: transparent;
-  color: white;
-  font-size: 1.5rem;
-  position: relative;
-  display: block;
-  cursor: pointer;
-}
-#home form div #submit::before {
-  content: "";
-  position: absolute;
-  display: block;
-  z-index: -2;
-  top: 0;
-  left: 0;
-  height: 100%;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
   width: 100%;
-  background-color: #172121;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
 }
-#home form div #submit::after {
-  content: "";
-  position: absolute;
-  display: block;
-  z-index: -1;
-  height: 100%;
-  top: 0;
-  left: 0;
-  width: 0;
-  background-color: blue;
-  transition: 0.5s all ease;
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
 }
-#home form div #submit:hover::after {
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
   width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 400px;
+  }
+
 }

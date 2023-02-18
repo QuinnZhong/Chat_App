@@ -1,6 +1,8 @@
 export default {
     template: `
-    <body> 
+
+    <body>
+      
     <header>
     <nav>
       <ul>
@@ -17,16 +19,13 @@ export default {
       <h2>Excited for chating?</h2>
     </div>        
     
-    
     <form id="my-form">
+    <h1> LogIn </h1>
             <label for="username">Enter Username:</label>
             <input v-model="uname" type="text" name="username" required placeholder="username">
-
             <label for="password">Enter Password:</label>
             <input v-model="pword" type="password" name="password" required placeholder="password">
-
             <input @click="submitData" type="submit" value="Valid Your Information" >
-
             <a href="index.html">Let's chat</a>
 
 
