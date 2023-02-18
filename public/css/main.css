@@ -24,7 +24,11 @@ main {
 
 main section { padding: 1em; }
 
-#main-headline { text-align: center; margin-bottom: 0.8em; }
+#main-headline { 
+    text-align: left;
+    margin-bottom: 0.8em;
+    margin-left: 1.5rem;
+    margin-top: 1rem; }
 
 label { display: block; padding-bottom: 0.5em;}
 

@@ -26,10 +26,7 @@ export default {
             <label for="password">Enter Password:</label>
             <input v-model="pword" type="password" name="password" required placeholder="password">
             <input @click="submitData" type="submit" value="Valid Your Information" >
-            <a href="index.html">Let's chat</a>
-
-
-            
+            <a href="http://localhost:3000/">Let's chat</a>            
         </form>
   </section>
 
