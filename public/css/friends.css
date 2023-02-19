@@ -1,0 +1,103 @@
+
+.friendlist:hover, nav.friendlist.expanded {
+width:250px;
+overflow:hidden;
+opacity:1;
+
+}
+
+.friendlist {
+background:#0000008c;
+position:absolute;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:55px;
+overflow:hidden;
+-webkit-transition:width .2s linear;
+transition:width .2s linear;
+  opacity:1;
+}
+
+.friendlist>ul {
+margin:7px 0;
+
+}
+
+.friendlist li {
+position:relative;
+display:block;
+width:250px;
+  
+
+
+}
+
+.friendlist li>a {
+position:relative;
+width:255px;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#ffffff;
+font-size: 13px;
+text-decoration:none;
+-webkit-transition:all .14s linear;
+transition:all .14s linear;
+}
+
+
+
+.friendlist .nav-icon {
+  
+position:relative;
+display:table-cell;
+width:55px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+
+}
+
+.friendlist .friend  {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+font-size: 1.5rem;
+height: 60px;
+}
+
+
+.friendlist .fb-like {
+
+left: 180px;
+position:absolute;
+top: 15px;
+}
+
+.friendlist>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+  
+}
+
+.hover {
+overflow-y:hidden;
+
+}
+
+.hover:hover {
+overflow-y:auto;
+overflow:visible;
+  
+}
+
+.friendlist li:hover>a,nav.friendlist li.active>a {
+color:#fff;
+background-color:#0000008c;
+text-shadow: 0px 0px 0px; 
+}

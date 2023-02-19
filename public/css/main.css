@@ -22,12 +22,12 @@ main {
     grid-gap: 1em;
 }
 
-main section { padding: 1em; }
+main section { padding: 1em; margin-left: 4rem;}
 
 #main-headline { 
     text-align: left;
     margin-bottom: 0.8em;
-    margin-left: 1.5rem;
+    margin-left: 5rem;
     margin-top: 1rem; }
 
 label { display: block; padding-bottom: 0.5em;}
