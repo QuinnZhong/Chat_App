@@ -7,6 +7,7 @@
     
     <link rel="stylesheet" href="css/main.css"> 
     <link rel="stylesheet" href="css/landingpage.css"> 
+    <link rel="stylesheet" href="css/friends.css"> 
     <title>Chat APP</title>
 </head>
 <body>
@@ -41,6 +42,48 @@
                 <newmsg v-for="message in messages" :message="message"></newmsg>
             </ul>
         </section>
+
+
+
+    <nav class="friendlist">
+        <ul>
+        <li>
+            <a href="/">
+            <i></i><span class="friend">Friends List</span></a>
+        </li>  
+
+        <li>
+            <a href="/">
+            <i></i><span class="friend">Trever</span></a>
+        </li>
+          
+        <li>
+            <a href="/">
+            <i></i><span class="friend">Joe</span></a>
+        </li>
+        
+        <li>
+        <a href="/">
+        <i></i><span class="friend">John</span></a>
+        </li>
+          
+        <li>
+        <a href="/">
+        <i></i><span class="friend">Justin</span></a>
+        </li>
+          
+        <li>
+        <a href="/"><i></i><span class="friend">Robert</span></a>
+        </li>       
+        </ul>
+            
+        <ul class="logout">    
+        <li><a href="http://127.0.0.1:5501/LandingPage.html#/home"><i></i><span class="friend">LOG OUT</span></a></li> 
+        <li><a href="/"><i></i><span class="friend">Help</span></a></li> 
+        </ul>
+    </nav>
+
+        
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
