@@ -4,9 +4,9 @@ export default {
     <header>
     <nav>
       <ul>
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="http://127.0.0.1:5501/LandingPage.html#/">LogIn</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     </header>
@@ -18,13 +18,13 @@ export default {
        </div> 
     <form id="my-form">
             <label for="username">Enter Your Name:</label>
-            <input v-model="uname" type="text" name="yourname" required placeholder="yourname">
+            <input v-model="name" type="text" name="yourname" required placeholder="yourname">
             <label for="username">Enter Your Email:</label>
-            <input v-model="uname" type="text" name="email" required placeholder="email">
+            <input v-model="email" type="text" name="email" required placeholder="email">
             <label for="username">Enter Username:</label>
             <input v-model="uname" type="text" name="username" required placeholder="username">
             <label for="password">Enter Password:</label>
-            <input v-model="pword" type="password" name="password" required placeholder="password">
+            <input v-model="password" type="password" name="password" required placeholder="password">
             <label for="bio">Bio:</label>
             <textarea id="bio" name="userbio"></textarea>
             <label for="age">Age:</label>
