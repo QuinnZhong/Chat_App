@@ -12,35 +12,9 @@ There are many great chat APP available nowadays. However, our Chat APP is so am
 
 2. Express.js (https://expressjs.com/)
 
-3. Socket.io (https://socket.io/)
+3. Express.js (https://expressjs.com/)
 
-4. NPM (https://www.npmjs.com/)
-
-5. Node.js (https://nodejs.org/en/)
-
-
-## Features
-
-### Log in
-
-
-![login](https://user-images.githubusercontent.com/90532540/219906739-abde85c8-7414-4f78-82c3-683dd196108b.PNG)
-
-
-
-### Online Chatting
-
-
-![chat](https://user-images.githubusercontent.com/90532540/219906841-d2aa89b6-a1a8-4bf3-8039-cc7d86e26b61.PNG)
-
-![chat_2](https://user-images.githubusercontent.com/90532540/219906955-e80e58db-2825-4ad6-955d-3aa122ef6e1f.PNG)
-
-
-
-### Friend List 
-
-
-![friends](https://user-images.githubusercontent.com/90532540/219907035-a914a88a-5a53-47f4-8ff5-e21508b8658b.PNG)
+4. Node.js (https://nodejs.org/en/)
 
 
 ## Getting Started
